@@ -9,6 +9,52 @@
 
     </head>
     <body>
+        <ul>
+            <li>
+                <a href="#settingUp">Setting Up an HTML File</a>
+            </li>
+            <li>
+                <a href="#head">The Head Element</a>
+            </li>
+            <li>
+                <a href="#anchor">The Anchor Element</a>
+            </li>
+        </ul>
+        <section id=settingUp>
+          <h1>How do you set up at HTML File?</h1>
+          <div>In order to let the web browser know we are using HTML we must start out document with a document type declaration that looks like this: </div>
+          <div><strong>&lt;!DOCTYPE html&gt;</strong></div>
+          <div>This declaration provides the browser with 2 pieces of information:</div>
+          <ol>
+            <li>The type of document</li>
+            <li>the HTML version to expect</li>
+          </ol>
+          <div>The declaration doesn't actuallly add any HTML structure or content.</div>
+          <p>This must be the first line of code in your HTML document.
+            Currently, HTML5 is the most up to date version, but in the future once a new standard has overtaken version 5, beginning with the declaration will make sure that your document is forever interpreted correctly.
+            
+            Lastly, HTML code always saves in a file with a .html extension.
+            
+            After you write the declaration, then anything between the &lt;html&gt; and &lt;/html&gt; will be interpreted as HTML code.</p>
+        </section>
+        <section id="head">
+            <h1>The Head Element</h1>
+            <div>The head element goes above the body element of an html document.  It contains metador for a web page.  Metadata is info about the page that isn't displayed directly on the web page. 
+            </div>
+            <div>A browser's tab displays the title specified in the title tag.  The title tag is always inside of the head tag.</div>
+        </section>
+        <section id="anchor">
+            <h1>The Anchor Tag</h1>
+            <div>You can add links to another web page by adding the anchor element and including the text of the link between the opening and closing tags.</div>
+            <div>An anchor tag must have and <strong>href</strong> attribute (hyperlink reference) 
+                Here's and example:</div>
+            <p><strong>&lt;a href="https://www.wikipedia.org/"&gt;This Is A Link To Wikipedia&lt;/a&gt;</strong></p>
+            <p>would display as this: <a href="https://www.wikipedia.org/">This Is A Link to Wikipedia</a></p>
+            <p>Another attribute of the anchor tag in the <strong>target</strong> attribute. The target attribute specifies how a link should open.
+                <strong>target="_blank"</strong> to open the link in a new window.
+                Leaving out the target attribute will open the link in the same window.</p>
+                <p>Here is the same link with a target attribute: <a href="https://www.wikipedia.org/" target="_blank">This Is A Link to Wikipedia</a></p>
+        </section>
 
     </body>
   </html>
