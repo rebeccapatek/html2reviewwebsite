@@ -53,7 +53,25 @@
             <p>Another attribute of the anchor tag in the <strong>target</strong> attribute. The target attribute specifies how a link should open.
                 <strong>target="_blank"</strong> to open the link in a new window.
                 Leaving out the target attribute will open the link in the same window.</p>
-                <p>Here is the same link with a target attribute: <a href="https://www.wikipedia.org/" target="_blank">This Is A Link to Wikipedia</a></p>
+            <p>Here is the same link with a target attribute: <a href="https://www.wikipedia.org/" target="_blank">This Is A Link to Wikipedia</a></p>
+            <h3>When wanting to link to other pages in a static website:</h3>
+            <p>Usually web developers store HTML files in the root directory or a main folder where all the files for a project are stored.
+                For example let's say that we had this file structure:
+            </p>
+            <div>project-folder/</div>
+            <ul>
+                <li>about.html</li>
+                <li>contact.html</li>
+                <li>index.html</li>
+            </ul>
+            <p>We can link web pages together using a relative path (shows the path to a local file or a file on the same website. An absolute path is a full url</p>
+            <p>Let's say that we are on the index.html and we want to go to the contact page.</p>
+            <div><strong>&lt;a href="./contact.html"&gt;Contact&lt;/a&gt;</strong> (would show up as contact underlined as a link)</div>
+            <p>The ./ tells the browser to look for the file in the current folder</p>
+            <h3>Images as a link</h3>
+            <p>You can turn an image into a link by wrapping the image tag in anchor tags</p>
+            <a href="https://en.wikipedia.org/wiki/Brown_recluse_spider"><img src="https://www.mercy.net/content/dam/mercy/en/images/News/brown-recluse-spider-2019.jpeg.transform/image-component-desktop/img.jpeg" alt="pic of brown recluse spider"></a>
+
         </section>
 
     </body>
